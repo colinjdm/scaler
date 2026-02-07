@@ -1,0 +1,2 @@
+# scaler
+Musical scale analyzer.
