@@ -79,13 +79,19 @@ scales_database = {
 
 
 def main():
-    #if request.method == "GET":
-    #if request.method == "POST":
+    # if request.method == "GET":
+    # if request.method == "POST":
 
-    #inpute notes and save them to a string
+    # input notes and save them to a string
     user_notes = input("Notes?")
 
-    #split notes into list
+    # need to convert all the uppercase
+
+    # need to convert all flats to sharps or naturals (won't matter for website)
+
+    # need to control for notes that don't exist?
+
+    # split notes into list
     notes = user_notes.split(',')
     scales = matching(notes)
     print(scales)
